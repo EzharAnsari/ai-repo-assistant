@@ -1,0 +1,65 @@
+# ============================================================================
+# Git Ignore Rules for AI Repository Assistant Project
+# ============================================================================
+
+# Environment Variables & Secrets
+# CRITICAL: Never commit .env files containing sensitive data
+.env
+.env.local
+.env.*.local
+.env.prod
+.env.production
+.env.staging
+.env.development
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.log
+
+# Node & npm
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+
+# Database
+*.sqlite
+*.db
+postgres_data/
+mysql_data/
+
+# Build outputs
+dist/
+build/
+target/
+.next/
+out/
+
+# IDE temp files
+*.tmp
+*.bak
+.gradle/
+
+# Misc development files
+.DS_Store
+*.pem
+.env.*.swp
